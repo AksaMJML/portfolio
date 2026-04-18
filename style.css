@@ -1,7 +1,7 @@
 html {
       scroll-behavior: smooth;
     }
-    
+
     @keyframes fadeInUp {
       from {
         opacity: 0;
@@ -12,7 +12,7 @@ html {
         transform: translateY(0);
       }
     }
-    
+
     @keyframes float {
       0%, 100% {
         transform: translateY(0px);
@@ -21,32 +21,36 @@ html {
         transform: translateY(-20px);
       }
     }
-    
+
     .animate-fade-in-up {
       animation: fadeInUp 0.8s ease-out forwards;
     }
-    
+
     .animate-float {
       animation: float 6s ease-in-out infinite;
     }
-    
+
+    /* Updated Gradient to match the new blue theme */
     .gradient-text {
-      background: linear-gradient(135deg, #00feba, #5b548a);
+      background: linear-gradient(135deg, #7A9CF5, #28396C);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
     }
-    
+
     .card-hover {
       transition: all 0.3s ease;
     }
-    
+
+    /* Updated glows to use #28396C */
     .card-hover:hover {
       transform: translateY(-5px);
-      box-shadow: 0 20px 40px rgba(0, 254, 186, 0.2);
+      box-shadow: 0 20px 40px rgba(40, 57, 108, 0.4); 
     }
-    
+
     .glow-border {
-      border: 1px solid rgba(0, 254, 186, 0.3);
-      box-shadow: 0 0 20px rgba(0, 254, 186, 0.1);
+      border: 1px solid rgba(40, 57, 108, 0.5);
+      box-shadow: 0 0 20px rgba(40, 57, 108, 0.15);
     }
+
+    
